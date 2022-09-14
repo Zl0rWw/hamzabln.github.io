@@ -1,0 +1,98 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
+:root {
+    --bgColor:linear-gradient(129deg, rgba(50,45,133,1) 0%, rgba(7,6,92,1) 25%, rgba(9,9,121,1) 75%, rgba(131,1,13,1) 100%);;
+    --accentColor: #E6E6E6;
+    --font: 'Karla', sans-serif;
+    --firstName: 'Hamza';
+    --lastName: 'Bilen';
+}
+
+body{
+    background: rgb(50,45,133);
+background: linear-gradient(129deg, rgba(50,45,133,1) 0%, rgba(7,6,92,1) 25%, rgba(9,9,121,1) 75%, rgba(131,1,13,1) 100%);
+}
+
+#userPhoto{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+#userName{
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links{
+    max-width: 300px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+.link{
+    display: block;
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid rgb(70, 68, 207) 2px;
+}
+
+.link:hover{
+    color: #ffffff;
+    background: rgb(70, 68, 207);
+    border-color: rgba(70, 68, 207);
+    transition: all 0.4s ease 0s;
+}
+
+i {
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: var(--font);
+    font-style: italic;;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: var(--font);
+}
+h6{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(136, 136, 136);
+    font-family: var(--font);
+}
+.atrib{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(136, 136, 136);
+    font-family: var(--font);
+    margin-bottom: 20px;
+    padding: 17px;
+}
